@@ -30,8 +30,26 @@
           <div class="col-md-8">
             <div class="conversation">
               <div class="conversation-contact"></div>
-              <span class="icon-attachment"></span>
-              <span class="icon-dots-three-vertical convo-dots"></span>
+              <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle btn-icon-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="icon-attachment"></span>
+                </button>
+                <ul class="dropdown-menu drop-multimedia">
+                  <img src="image/multimedia.png" class="menu-multimedia">
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle btn-icon-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="icon-dots-three-vertical convo-dots"></span>
+                </button>
+                <ul class="dropdown-menu drop-opciones-ul">
+                  <li class="drop-opciones"><a href="#">Info. del contacto</a></li>
+                  <li class="drop-opciones"><a href="#">Seleccionar mensajes</a></li>
+                  <li class="drop-opciones"><a href="#">Silenciar</a></li>
+                  <li class="drop-opciones"><a href="#">Eliminar mensajes</a></li>
+                  <li class="drop-opciones"><a href="#">Eliminar chat</a></li>                
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -58,5 +76,7 @@
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jquery.cssemoticons.min.js"></script>
+    <script type="text/javascript"src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
   </body>
 </html>
